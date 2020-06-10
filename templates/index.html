@@ -29,7 +29,7 @@
               <div class="card blog__slide text-center">
                 <div class="blog__slide__img">
                   {% if post.image_url %}
-                    <img class="card-img rounded-0" src={{post.image_url}} alt="popular_post_picture">
+                    <img class="card-img rounded-0" src="{{post.image_url}}" alt="popular_post_picture">
                   {% else %}
                     <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="banner_picture">
                   {% endif %}  
