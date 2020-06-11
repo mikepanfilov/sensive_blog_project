@@ -55,7 +55,7 @@
               <div class="single-recent-blog-post">
                 <div class="thumb">
                   {% if post.image_url %}
-                    <img class="img-fluid" src={{post.image_url}} alt="blog_picture">
+                    <img class="img-fluid" src="{{post.image_url}}" alt="blog_picture">
                   {% else %}
                     <img class="img-fluid" src="{% static 'img/banner/blog.png' %}" alt="banner_picture">
                   {% endif %}
